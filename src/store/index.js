@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Vuex, { Store } from 'vuex'
 import createPersistantState from 'vuex-persistedstate'
+import actions from './actions'
+import mutations from './mutations'
 
 Vue.use(Vuex)
 
@@ -56,8 +58,8 @@ const store = new Store({
     shrines: [],
     memories: []
   },
-  actions: {},
-  mutations: {},
+  actions,
+  mutations,
   getters: {
     shrineQuests: state => state.shrineQuests,
     sideQuests: state => state.sideQuests,

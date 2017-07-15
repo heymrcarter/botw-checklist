@@ -31,6 +31,6 @@ export default {
 }
 
 main {
-  padding: 15px;
+  background-color: #eee;
 }
 </style>
