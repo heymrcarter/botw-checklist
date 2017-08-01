@@ -4,30 +4,35 @@
       <h1>Quests</h1>
 
       <ul class="quest-tabs">
-        <li class="active"><a href="#">Shrine quests</a></li>
+        <li v-for="(type, i) in questTypes" :class="{active: currentQuestType === type}" :key="i"><a href="#" @click.prevent="changeQuestType(type)">{{ type }} quests</a></li>
       </ul>
     </div>
-    
+
     <div class="quest-list">
       <div class="card">
-        <div class="region-filter">
-          <label>Region</label>
-          <select v-model="selectedRegion">
-            <option v-for="(region, i) in regions" :key="i" :value="region">{{ region }}</option>
-          </select>
+        <div v-if="quests.length === 0">
+          <p>No {{ currentQuestType.toLowerCase() }} quests</p>
         </div>
+        <div v-else>
+          <div v-if="hasRegions(quests[0])">
+            <div class="region-filter">
+              <label>Region</label>
+              <select v-model="selectedRegion">
+                <option v-for="(region, i) in regions" :key="i" :value="region">{{ region }}</option>
+              </select>
+            </div>
+          </div>
 
-        <ul v-if="quests.length > 0">
-          <li v-for="(quest, i) in quests" :key="i">
-            <label>
-              <input @change="toggleFound({ type: 'shrineQuests', index: i })" type="checkbox" :checked="quest.found" :value="i">
+          <ul v-if="quests.length > 0">
+            <li v-for="(quest, i) in quests" :key="i">
+              <label>
+                <input @change="toggleFound({ type: 'shrineQuests', index: i })" type="checkbox" :checked="quest.found" :value="i">
 
-              <span :class="{complete: quest.found}">{{ quest.name }}</span>
-            </label>
-          </li>
-        </ul>
-
-        <p v-else>No shrine quests in {{ selectedRegion }} region</p>
+                <span :class="{complete: quest.found}">{{ quest.name }}</span>
+              </label>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -41,11 +46,28 @@ export default {
   data () {
     return {
       quests: [],
+      questTypes: ['Main', 'Shrine', 'Side'],
+      currentQuestType: undefined,
       selectedRegion: 'All',
       regions: ['All', 'Akkala', 'Central', 'Dueling Peaks', 'Eldin', 'Faron', 'Gerudo', 'Wasteland', 'Great Hyrule Forest', 'Hateno', 'Hebra', 'Lake', 'Lanayru', 'Ridgeland', 'Ridgeland', 'Tabantha']
     }
   },
   watch: {
+    currentQuestType (nextQuestType) {
+      switch (nextQuestType) {
+        case 'Main':
+          this.quests = this.mainQuests
+          break
+        case 'Shrine':
+          this.quests = this.shrineQuests
+          break
+        case 'Side':
+          this.quests = this.sideQuests
+          break
+        default:
+          this.quests = []
+      }
+    },
     selectedRegion (nextRegion) {
       if (nextRegion === 'All') {
         this.quests = this.shrineQuests
@@ -56,13 +78,19 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['shrineQuests'])
+    ...mapGetters(['mainQuests', 'shrineQuests', 'sideQuests'])
   },
   methods: {
-    ...mapActions(['toggleFound'])
+    ...mapActions(['toggleFound']),
+    changeQuestType (nextType) {
+      this.currentQuestType = nextType
+    },
+    hasRegions (quest) {
+      return quest.hasOwnProperty('region')
+    }
   },
   mounted () {
-    this.quests = this.shrineQuests
+    this.currentQuestType = 'Main'
   }
 }
 </script>
@@ -96,9 +124,10 @@ h1 {
 
   li {
     margin-right: 15px;
-    border-bottom: 3px solid #0d9263;
 
     &.active {
+      border-bottom: 3px solid #0d9263;
+
       a {
         color: #0d9263;
       }
