@@ -535,7 +535,98 @@ const store = new Store({
       }
     ],
     shrines: [],
-    memories: []
+    memories: [
+      {
+        name: 'Subdued Ceremony',
+        location: 'Sacred Grounds',
+        region: 'Central Hyrule'
+      },
+      {
+        name: 'Revali’s Flap',
+        location: 'Rito Village',
+        region: 'Tabantha'
+      },
+      {
+        name: 'Resolve and Grief',
+        location: 'Lake Kolomo',
+        region: 'Central Hyrule'
+      },
+      {
+        name: 'Daruk’s Mettle',
+        location: 'Goron City',
+        region: 'Eldin'
+      },
+      {
+        name: 'Zelda’s Resentment',
+        location: 'Ancient Columns',
+        region: 'Tabantha'
+      },
+      {
+        name: 'Urbosa’s Hand',
+        location: 'Gerudo Town',
+        region: 'Gerudo Desert'
+      },
+      {
+        name: 'Blades of the Yiga',
+        location: 'Kara Kara Bazaar',
+        region: 'Gerudo Desert'
+      },
+      {
+        name: 'A Premonition',
+        location: 'Eldin Canyon',
+        region: 'Eldin'
+      },
+      {
+        name: 'Silent Princess',
+        location: 'Irch Plain',
+        region: 'Hyrule Ridge'
+      },
+      {
+        name: 'Mipha’s Touch',
+        location: 'Zora’s Domain',
+        region: 'Lanayru'
+      },
+      {
+        name: 'Shelter from the Storm',
+        location: 'West Necluda',
+        region: 'Dueling Peaks'
+      },
+      {
+        name: 'Father and Daughter',
+        location: 'Hyrule Castle',
+        region: 'Central Hyrule'
+      },
+      {
+        name: 'Slumbering Power',
+        location: 'Spring of Power',
+        region: 'Akkala'
+      },
+      {
+        name: 'To Mount Lanayru',
+        location: 'Sanidin Park Ruins',
+        region: 'Hyrule Ridge'
+      },
+      {
+        name: 'Return of Calamity Ganon',
+        location: 'Lanayru Road',
+        region: 'East Gate, Necluda'
+      },
+      {
+        name: 'Despair',
+        location: 'Hyrule Field',
+        region: 'Central Hyrule'
+      },
+      {
+        name: 'Zelda’s Awakening',
+        location: 'Fort Hateno',
+        region: 'Dueling Peaks'
+      },
+      {
+        name: 'The Master Sword',
+        location: 'Korok Town',
+        region: 'Great Hyrule Forest'
+      }
+    ]
   },
   actions,
   mutations,
