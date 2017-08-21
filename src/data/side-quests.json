@@ -1,0 +1,541 @@
+[
+  {
+    "name": "The Royal White Stallion",
+    "location": "Outskirt Stable",
+    "reward": "Royal Saddle, Royal Bridle",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "A Rare Find",
+    "location": "Outskirt Stable",
+    "reward": "Silver Rupee",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "My Hero",
+    "location": "Outskirt Stable",
+    "reward": "Star Fragment",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "The Royal Guard’s Gear",
+    "location": "Riverside Stable",
+    "reward": "300 Rupees",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "A Royal Recipe",
+    "location": "Riverside Stable",
+    "reward": "Silver Rupee/ Silver Rupees x2",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "Riverbed reward",
+    "location": "Wetland Stable",
+    "reward": "Royal broadsword",
+    "region": "Central Hyrule",
+    "complete": false
+  },
+  {
+    "name": "Wild Horses",
+    "location": "Dueling Peaks Stable",
+    "reward": "50 Rupees",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Misko the Great Bandit",
+    "location": "Dueling Peaks Stable",
+    "reward": "Treasure Chest",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "The Priceless Maracas",
+    "location": "West Necluda",
+    "reward": "Inventory Expansion",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Flown the Coop",
+    "location": "Kakariko Village",
+    "reward": "Purple Rupee",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Playtime with Cottla",
+    "location": "Kakariko Village",
+    "reward": "Rock Salt",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Arrows of Burning Heat",
+    "location": "Kakariko Village",
+    "reward": "Red Rupee",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Koko’s Kitchen",
+    "location": "Kakariko Village",
+    "reward": "Hasty Veggie Cream Soup",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Cooking with Koko",
+    "location": "Kakariko Village",
+    "reward": "Hot Buttered Apple",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Koko Cuisine",
+    "location": "Kakariko Village",
+    "reward": "Tough meat-stuffed pumpkin",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Koko’s Specialty",
+    "location": "Kakariko Village",
+    "reward": "Energizing Honeyed Apple",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "Find the Fairy Fountain",
+    "location": "Kakariko Village",
+    "reward": "Some Hints to Memories Quest",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "By Firefly’s Light",
+    "location": "Kakariko Village",
+    "reward": "Purple Rupee",
+    "region": "Dueling Peaks",
+    "complete": false
+  },
+  {
+    "name": "What’s for Dinner?",
+    "location": "Lurelin Village",
+    "reward": "Silver Rupee",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "Sunken Treasure",
+    "location": "Lurelin Village",
+    "reward": "Thunderblade, Gemstones",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "Take Back the Sea",
+    "location": "Lurelin Village Beach",
+    "reward": "Silver Rupee",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "A Gift of Nightshade",
+    "location": "Tuft Mountain",
+    "reward": "Silver Rupee",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "Thunder Magnet",
+    "location": "Lakeside Stable",
+    "reward": "Rubber Helm",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "The Horseback Hoodlums",
+    "location": "Highland Stable",
+    "reward": "Endura Carrot",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "Hunt for the Giant Horse",
+    "location": "Taobab Grassland",
+    "reward": "Silver Rupee",
+    "region": "Faron",
+    "complete": false
+  },
+  {
+    "name": "The Statue’s Bargain",
+    "location": "Hateno Village",
+    "reward": "–",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "The Weapon Connoisseur",
+    "location": "Hateno Village",
+    "reward": "Multiple",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "A Gift for My Beloved",
+    "location": "Hateno Village",
+    "reward": "Silver Rupee",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "Slated for Upgrades",
+    "location": "Hateno Village",
+    "reward": "Rune Upgrades",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "Robbie’s Research",
+    "location": "Hateno Village",
+    "reward": "Ancient Arrows x3",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "The Sheep Rustlers",
+    "location": "Hateno Villate",
+    "reward": "Fresh Milk x10",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "Hylian Homeowner",
+    "location": "Hateno Village",
+    "reward": "House",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "From the Ground Up",
+    "location": "Hateno Village",
+    "reward": "Shops, Diamonds x3",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "Sunshroom Sensing",
+    "location": "Hateno Village",
+    "reward": "Hearty Truffles x3",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "The Hero’s Cache",
+    "location": "Kitano Bay",
+    "reward": "Gold Rupee",
+    "region": "Necluda",
+    "complete": false
+  },
+  {
+    "name": "Luminous Stone Gathering",
+    "location": "Zora’s Domain",
+    "reward": "Diamonds x2",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Lynel Safari",
+    "location": "Zora’s Domain",
+    "reward": "Zora Greaves",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "A Wife Washed Away",
+    "location": "Zora’s Domain",
+    "reward": "Staminoka Basses x5",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "The Giant of Ralis Pond",
+    "location": "Zora’s Domain",
+    "reward": "Silver Rupee",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Zora Stone Monuments",
+    "location": "Zora’s Domain",
+    "reward": "Diamond",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Diving is Beauty!",
+    "location": "Zora’s Domain",
+    "reward": "Fleet-lotus Seeds x5",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Frog Catching",
+    "location": "Zora’s Domain",
+    "reward": "Armoranth",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Special Delivery",
+    "location": "Bank of Wishes",
+    "reward": "300 Rupees",
+    "region": "Lanayru",
+    "complete": false
+  },
+  {
+    "name": "Fireproof Lizard Roundup",
+    "location": "Southern Mine",
+    "reward": "Flamebreaker Armor",
+    "region": "Eldin",
+    "complete": false
+  },
+  {
+    "name": "The Road to Respect",
+    "location": "Goron City",
+    "reward": "Silver Rupee",
+    "region": "Eldin",
+    "complete": false
+  },
+  {
+    "name": "The Jewel Trade",
+    "location": "Goron City",
+    "reward": "500 Rupees",
+    "region": "Eldin",
+    "complete": false
+  },
+  {
+    "name": "Death Mountain’s Secret",
+    "location": "Goron Hot Springs",
+    "reward": "Drillshaft",
+    "region": "Eldin",
+    "complete": false
+  },
+  {
+    "name": "A Curry for What Ails You",
+    "location": "Rito Stable",
+    "reward": "Purple Rupee",
+    "region": "Tabantha",
+    "complete": false
+  },
+  {
+    "name": "The Spark of Romance",
+    "location": "Rito Village",
+    "reward": "Silver Rupee",
+    "region": "Tabantha",
+    "complete": false
+  },
+  {
+    "name": "The Apple of My Eye",
+    "location": "Rito Village",
+    "reward": "Silver Rupee",
+    "region": "Tabantha",
+    "complete": false
+  },
+  {
+    "name": "Find Kheel",
+    "location": "Rito Village",
+    "reward": "Purple Rupee",
+    "region": "Tabantha",
+    "complete": false
+  },
+  {
+    "name": "Face the Frost Talus",
+    "location": "Rito Village",
+    "reward": "Silver Rupee",
+    "region": "Tabantha",
+    "complete": false
+  },
+  {
+    "name": "Stalhorse: Pictured!",
+    "location": "Snowfield Stable",
+    "reward": "Silver Rupee",
+    "region": "Hebra",
+    "complete": false
+  },
+  {
+    "name": "Good-Sized Horse",
+    "location": "Gerudo Canyon",
+    "reward": "300 Rupees",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "Missing in Action",
+    "location": "Gerudo Canyon Stable",
+    "reward": "Gold Rupee",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "Rushroom Rush!",
+    "location": "Gerudo Canyon Stable",
+    "reward": "Diamond",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "An Ice Guy",
+    "location": "Kara Kara Bazaar",
+    "reward": "Purple Rupee",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Secret Club’s Secret",
+    "location": "Gerudo Town",
+    "reward": "New Clothes Shop",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "Medicinal Molduga",
+    "location": "Gerudo Town",
+    "reward": "Gold Rupee",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Eighth Heroine",
+    "location": "Gerudo Town",
+    "reward": "Sand Boots",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Forgotten Sword",
+    "location": "Gerudo Town",
+    "reward": "Snow Boots",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Search for Barta",
+    "location": "Gerudo Town",
+    "reward": "Silver Rupee",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Thunder Helm",
+    "location": "Gerudo Town",
+    "reward": "Thunder Helm",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "The Mystery Polluter",
+    "location": "Gerudo Town",
+    "reward": "Hydromelon",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "Tools of the Trade",
+    "location": "Gerudo Town",
+    "reward": "Various",
+    "region": "Gerudo Desert",
+    "complete": false
+  },
+  {
+    "name": "A Parent’s Love",
+    "location": "Tarrey Town",
+    "reward": "Gold Rupee",
+    "region": "Akkala",
+    "complete": false
+  },
+  {
+    "name": "Hobbies of the Rich",
+    "location": "Tarrey Town",
+    "reward": "Silver Rupee, Red Rupee",
+    "region": "Akkala",
+    "complete": false
+  },
+  {
+    "name": "A Shady Customer",
+    "location": "Akkala Stable",
+    "reward": "Silver Rupee",
+    "region": "Akkala",
+    "complete": false
+  },
+  {
+    "name": "Little Sister’s Big Request",
+    "location": "Akkala Stable",
+    "reward": "Silver Rupee",
+    "region": "Akkala",
+    "complete": false
+  },
+  {
+    "name": "A Gift for the Great Fairy",
+    "location": "Tabantha Bridge Stable",
+    "reward": "500 rupees",
+    "region": "Hyrule Ridge",
+    "complete": false
+  },
+  {
+    "name": "The Korok Trials",
+    "location": "Korok Forest",
+    "reward": "Big Hearty Truffle x3",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "Balloon Flight",
+    "location": "Woodland Stable",
+    "reward": "Star Fragment",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "A Freezing Rod",
+    "location": "Korok Forest",
+    "reward": "Silver Rupee/ Gold Rupee",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "Leviathan Bones",
+    "location": "Serenne Stable",
+    "reward": "Gold  Rupee",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "Legendary Rabbit Trial",
+    "location": "Korok Forest",
+    "reward": "Silver Rupee",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "A Gift from the Monks",
+    "location": "Forgotten Temple",
+    "reward": "“Of the Wild” armor set",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  },
+  {
+    "name": "Riddles of Hyrule",
+    "location": "Korok Forest",
+    "reward": "Diamond",
+    "region": "Great Hyrule Forest",
+    "complete": false
+  }
+]

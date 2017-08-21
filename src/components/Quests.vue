@@ -1,37 +1,22 @@
 <template>
-  <div>
-    <div class="card">
-      <h1>Quests</h1>
+  <div class="">
+    <div class="card no-border">
+      <h1 class="page-header">Quests</h1>
 
-      <ul class="quest-tabs">
-        <li v-for="(type, i) in questTypes" :class="{active: currentQuestType === type}" :key="i"><a href="#" @click.prevent="changeQuestType(type)">{{ type }} quests</a></li>
+      <ul class="tabs">
+        <li v-for="(type, i) in questTypes" :class="{active: currentQuestType === type.key}" :key="i">
+          <a href="#" @click.prevent="changeQuestType(type.key)">{{ type.name }} quests</a>
+        </li>
       </ul>
     </div>
 
     <div class="quest-list">
       <div class="card">
         <div v-if="quests.length === 0">
-          <p>No {{ currentQuestType.toLowerCase() }} quests</p>
+          <p>No {{ friendlyQuestType }} quests</p>
         </div>
         <div v-else>
-          <div v-if="hasRegions(quests[0])">
-            <div class="region-filter">
-              <label>Region</label>
-              <select v-model="selectedRegion">
-                <option v-for="(region, i) in regions" :key="i" :value="region">{{ region }}</option>
-              </select>
-            </div>
-          </div>
-
-          <ul v-if="quests.length > 0">
-            <li v-for="(quest, i) in quests" :key="i">
-              <label>
-                <input @change="toggleFound({ type: 'shrineQuests', index: i })" type="checkbox" :checked="quest.found" :value="i">
-
-                <span :class="{complete: quest.found}">{{ quest.name }}</span>
-              </label>
-            </li>
-          </ul>
+          <completable-list :completables="quests" :on-complete="complete"></completable-list>
         </div>
       </div>
     </div>
@@ -40,127 +25,99 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
+import CompletableList from './CompletableList'
 
 export default {
   name: 'quests',
+  components: {CompletableList},
   data () {
     return {
       quests: [],
-      questTypes: ['Main', 'Shrine', 'Side'],
-      currentQuestType: undefined,
+      filterValue: '',
+      renderFilterPropertyList: false,
+      currentFilterProperty: 'name',
+      questTypes: [{name: 'Main', key: 'mainQuests'}, {name: 'Shrine', key: 'shrineQuests'}, {name: 'Side', key: 'sideQuests'}],
+      currentQuestType: 'mainQuests',
       selectedRegion: 'All',
       regions: ['All', 'Akkala', 'Central', 'Dueling Peaks', 'Eldin', 'Faron', 'Gerudo', 'Wasteland', 'Great Hyrule Forest', 'Hateno', 'Hebra', 'Lake', 'Lanayru', 'Ridgeland', 'Ridgeland', 'Tabantha']
     }
   },
-  watch: {
-    currentQuestType (nextQuestType) {
-      switch (nextQuestType) {
-        case 'Main':
-          this.quests = this.mainQuests
-          break
-        case 'Shrine':
-          this.quests = this.shrineQuests
-          break
-        case 'Side':
-          this.quests = this.sideQuests
-          break
-        default:
-          this.quests = []
-      }
+  computed: {
+    ...mapGetters(['mainQuests', 'shrineQuests', 'sideQuests']),
+    friendlyQuestType () {
+      return this.questTypes.find(t => t.key === this.currentQuestType).name
     },
-    selectedRegion (nextRegion) {
-      if (nextRegion === 'All') {
-        this.quests = this.shrineQuests
-        return
-      }
-
-      this.quests = this.shrineQuests.filter(q => q.region === nextRegion)
+    questFilterProperties () {
+      return Object.keys(this.quests[0])
     }
   },
-  computed: {
-    ...mapGetters(['mainQuests', 'shrineQuests', 'sideQuests'])
-  },
   methods: {
-    ...mapActions(['toggleFound']),
+    ...mapActions(['toggleComplete']),
     changeQuestType (nextType) {
       this.currentQuestType = nextType
+      this.quests = this.$store.getters[this.currentQuestType]
+      this.filterValue = ''
     },
     hasRegions (quest) {
       return quest.hasOwnProperty('region')
+    },
+    complete (index) {
+      this.toggleComplete({type: this.currentQuestType, index})
+    },
+    filterQuests (filterValue) {
+      this.quests = this.$store.getters[this.currentQuestType].filter(q => q.name.toLowerCase().includes(filterValue.toLowerCase()))
     }
   },
   mounted () {
-    this.currentQuestType = 'Main'
+    this.quests = this.$store.getters[this.currentQuestType]
   }
 }
 </script>
 
 <style lang="less" scoped>
-.card {
-  background-color: white;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 5px 0px #999;
-  padding: 15px;
-}
+@import '../less/colors';
 
-h1 {
-  margin-bottom: 15px;
-  font-size: 36px;
-}
-
-.region-filter {
+.filter {
   margin-bottom: 20px;
 
   label {
-    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
-}
 
-.quest-tabs {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5px;
-  margin-bottom: -15px;
+  .filter-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
 
-  li {
-    margin-right: 15px;
-
-    &.active {
-      border-bottom: 3px solid #0d9263;
-
-      a {
-        color: #0d9263;
-      }
+    .property-selector {
+      background-color: #ccc;
+      padding: 5px;
+      font-size: 14px;
+      cursor: pointer;
     }
 
-    a {
-      color: #494b4b;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 18px;
+    .property-list {
+      position: absolute;
+      top: 30px;
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 2px 5px 0px #999;
+      background-color: white;
+
+      li {
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #ccc;
+        }
+      }
     }
   }
 }
 
 .quest-list {
   margin: 25px 20px;
-
-  li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 0;
-    border-bottom: 1px solid #494b4b;
-
-    input {
-      margin-right: 10px;
-    }
-
-    .complete { text-decoration: line-through; }
-  }
-}
-
-ul {
-  list-style: none;
 }
 </style>

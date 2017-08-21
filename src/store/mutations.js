@@ -1,6 +1,6 @@
 export default {
-  TOGGLE_FOUND (state, { findable, index }) {
-    const currentState = state[findable][index].found
-    state[findable][index].found = !currentState
+  TOGGLE_COMPLETE (state, { type, index }) {
+    const currentState = state[type][index].complete
+    state[type][index].complete = !currentState
   }
 }

@@ -1,0 +1,650 @@
+[
+  {
+    "complete": false,
+    "name": "Horse",
+    "locations": [
+      "Hyrule Field",
+      "Faron Grasslands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Giant Horse",
+    "locations": [
+      "Unknown"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "White Horse",
+    "locations": []
+  },
+  {
+    "complete": false,
+    "name": "Lord of the Mountain",
+    "locations": [
+      "Unknown"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Stalhorse",
+    "locations": [
+      "Hebra Mountains",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Donkey",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sand Seal",
+    "locations": [
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Patricia",
+    "locations": [
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Bushy-Tailed Squirrel",
+    "locations": [
+      "Hyrule Field",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Woodland Boar",
+    "locations": [
+      "Hyrule Field",
+      "Lanaryu Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Red-Tusked Boar",
+    "locations": [
+      "Akkala Highlands",
+      "Deep Akkala"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mountain Goat",
+    "locations": [
+      "Hyrule Ridge",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "White Goat",
+    "locations": [
+      "West Necluda",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mountain Buck",
+    "locations": [
+      "Hyrule Field",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mountain Doe",
+    "locations": [
+      "Hyrule Field",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Water Buffalo",
+    "locations": [
+      "Lanayru Wetlands",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hateno Cow",
+    "locations": [
+      "East Necluda",
+      "Faron Grasslands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Highland Sheep",
+    "locations": [
+      "East Necluda",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Grassland Fox",
+    "locations": [
+      "Hyrule Field",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Snowcoat Fox",
+    "locations": [
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Maraduo Wolf",
+    "locations": [
+      "Tabantha Frontier",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Wasteland Coyote",
+    "locations": [
+      "Gerudo Desert",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Cold-Footed Wolf",
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Tabantha Moose",
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Great-Horned Rinoceros",
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Honeyvore Bear",
+    "locations": [
+      "Tabantha Frontier",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Grizzlemaw Bear",
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hylian Retriever",
+    "locations": [
+      "Akkala Highlands",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Blupee",
+    "locations": [
+      "Unknown"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Common Sparrow",
+    "locations": [
+      "Hyrule Field",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Red Sparrow",
+    "locations": [
+      "Hebra Mountains",
+      "Tabantha Frontier"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Blue Sparrow",
+    "locations": [
+      "Lanayru Great Spring",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Rainbow Sparrow",
+    "locations": [
+      "Faron Grasslands",
+      "West Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sand Sparrow",
+    "locations": [
+      "Gerudo Desert"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Golden Sparrow",
+    "locations": [
+      "Great Hyrule Forest",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Wood Pigeon",
+    "locations": [
+      "Great Hyrule Forest",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Rainbow Pigeon",
+    "locations": [
+      "Hyrule Ridge",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hotfeather Pigeon",
+    "locations": [
+      "Eldin Canyon",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "White Pigeon",
+    "locations": [
+      "Hebra Mountains",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mountain Crow",
+    "locations": [
+      "Hyrule Ridge",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Bright-Chested Duck",
+    "locations": [
+      "Hyrule Ridge",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Blue-Winged Heron",
+    "locations": [
+      "Hyrule Ridge",
+      "Faron Grasslands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Pink Heron",
+    "locations": [
+      "Hyrule Ridge",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Islander Hawk",
+    "locations": [
+      "Hyrule Field",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Seagull",
+    "locations": [
+      "Necluda Sea",
+      "Akkala Sea"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Eldin Ostrich",
+    "locations": [
+      "Eldin Canyon",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Cucco",
+    "locations": [
+      "West Necluda",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hyrule Bass",
+    "locations": [
+      "Hyrule Field",
+      "West Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hearty Bass",
+    "locations": [
+      "West Necluda",
+      "Akkala Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Staminoka Bass",
+    "locations": [
+      "Hyrule Field",
+      "West Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hearty Salmon",
+    "locations": [
+      "Tabantha Frontier",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Chillfin Trout",
+    "locations": [
+      "Tabantha Frontier",
+      "Hebra Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sizzlefin Trout",
+    "locations": [
+      "Eldin Canyon",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Voltfin Trout",
+    "locations": [
+      "Tabantha Frontier",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Stealthfin Trout",
+    "locations": [
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mighty Carp",
+    "locations": [
+      "Akkala Highlands",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Armored Carp",
+    "locations": [
+      "Lanayru Great Spring",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sanke Carp",
+    "locations": [
+      "West Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Mighty Porgy",
+    "locations": [
+      "Necluda Sea",
+      "Lanayru Sea"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Armored Porgy",
+    "locations": [
+      "Necluda Sea",
+      "Lanayru Sea"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sneaky River Snail",
+    "locations": [
+      "West Necluda",
+      "Lanayru Great Spring"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hearty Blueshell Snail",
+    "locations": [
+      "Lanayru Sea",
+      "Necluda Sea"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Razorclaw Crab",
+    "locations": [
+      "Necluda Sea",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Ironshell Crab",
+    "locations": [
+      "Necluda Sea",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Bright-Eyed Crab",
+    "locations": [
+      "Lanayru Great Spring",
+      "Eldin Canyon"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Fairy",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Winterwing Butterfly",
+    "locations": [
+      "Hyrule Ridge",
+      "Tabantha Frontier"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Summerwing Butterfly",
+    "locations": [
+      "Great Hyrule Forest",
+      "Eldin Mountains"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Thunderwing Butterfly",
+    "locations": [
+      "Hyrule Ridge",
+      "Gerudo Highlands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Smotherwing Butterfly",
+    "locations": [
+      "Eldin Canyon",
+      "Death Mountain"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Cold Darner",
+    "locations": [
+      "Tabantha Frontier",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Warm Darner",
+    "locations": [
+      "Akkala Highlands",
+      "Hyrule Field"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Electric Darner",
+    "locations": [
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Restless Cricket",
+    "locations": [
+      "Hyrule Field",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Bladed Rhino Beetle",
+    "locations": [
+      "West Necluda",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Rugged Rhino Beetle",
+    "locations": [
+      "Hyrule Field",
+      "Faron Grasslands"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Energetic Rhino Beetle",
+    "locations": [
+      "Akkala Highlands",
+      "West Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Sunset Firefly",
+    "locations": [
+      "West Necluda",
+      "Great Hyrule Forest"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hot-Footed Frog",
+    "locations": [
+      "Lanayru Great Spring",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Tireless Frog",
+    "locations": [
+      "Lanaryu Great Spring",
+      "Hyrule Ridge"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hightail Lizard",
+    "locations": [
+      "West Necluda",
+      "East Necluda"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Hearty Lizard",
+    "locations": [
+      "Gerudo Desert",
+      "Necluda Sea"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Fireproof Lizard",
+    "locations": [
+      "Eldin Canyon",
+      "Death Mountain"
+    ]
+  }
+]

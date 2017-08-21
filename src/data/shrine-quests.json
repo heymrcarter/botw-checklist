@@ -1,0 +1,254 @@
+[
+  {
+    "complete": false,
+    "name": "Into the Vortex",
+    "shrine": "Ritaag Zumo shrine",
+    "region": "Akkala"
+  },
+  {
+    "complete": false,
+    "name": "The Skull's Eye",
+    "shrine": "Zuna Kai shrine",
+    "region": "Akkala"
+  },
+  {
+    "complete": false,
+    "name": "The Spring of Power",
+    "shrine": "Tutsuwa Nima shrine",
+    "region": "Akkala"
+  },
+  {
+    "complete": false,
+    "name": "Trial of the Labrynth",
+    "shrine": "Tu Ka'loh shrine",
+    "region": "Akkala"
+  },
+  {
+    "complete": false,
+    "name": "The Stolen Heirloom",
+    "shrine": "Lakna Rokee shrine",
+    "region": "Dueling Peaks"
+  },
+  {
+    "complete": false,
+    "name": "Watch out for the Flowers",
+    "shrine": "Hila Rao shrine",
+    "region": "Dueling Peaks"
+  },
+  {
+    "complete": false,
+    "name": "A Brother's Request",
+    "shrine": "Kayra Mah shrine",
+    "region": "Eldin"
+  },
+  {
+    "complete": false,
+    "name": "A Landscape of a Stable",
+    "shrine": "Tah Muhl shrine",
+    "region": "Eldin"
+  },
+  {
+    "complete": false,
+    "name": "The Gut Check Challenge",
+    "shrine": "Gorae Torr shrine",
+    "region": "Eldin"
+  },
+  {
+    "complete": false,
+    "name": "A Fragmented Monument",
+    "shrine": "Kah Yah shrine",
+    "region": "Faron"
+  },
+  {
+    "complete": false,
+    "name": "A Song of Storms",
+    "shrine": "Qukah Nata shrine",
+    "region": "Faron"
+  },
+  {
+    "complete": false,
+    "name": "Stranded on Eventide",
+    "shrine": "Korgu Chideh shrine",
+    "region": "Faron"
+  },
+  {
+    "complete": false,
+    "name": "The Three Giant Brothers",
+    "shrine": "Tawa Jinn shrine",
+    "region": "Faron"
+  },
+  {
+    "complete": false,
+    "name": "Cliffside Etchings",
+    "shrine": "Keeha Yoog shrine",
+    "region": "Gerudo"
+  },
+  {
+    "complete": false,
+    "name": "Sign of the Shadow",
+    "shrine": "Sasa Kai shrine",
+    "region": "Gerudo"
+  },
+  {
+    "complete": false,
+    "name": "Test of Will",
+    "shrine": "Joloo Nah shrine",
+    "region": "Gerudo"
+  },
+  {
+    "complete": false,
+    "name": "Secret of the Snowy Peaks",
+    "shrine": "Suma Sahma shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Eye of the Sandstorm",
+    "shrine": "Dako Tah shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Desert Labyrinth",
+    "shrine": "Dila Maag shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Perfect Drink",
+    "shrine": "Misae Suma shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Seven Heroines",
+    "shrine": "Korsh O'hu shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Silent Swordsman",
+    "shrine": "Kema Zoos shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "The Undefeated Champ",
+    "shrine": "Raqa Zunzo shrine",
+    "region": "Wasteland"
+  },
+  {
+    "complete": false,
+    "name": "Shrouded shrine",
+    "shrine": "Ketoh Wawai shrine",
+    "region": "Great Hyrule Forest"
+  },
+  {
+    "complete": false,
+    "name": "The Lost Pilgrimage",
+    "shrine": "Daag Chokah",
+    "region": "Great Hyrule Forest"
+  },
+  {
+    "complete": false,
+    "name": "The Test of Wood",
+    "shrine": "Maag Halan shrine",
+    "region": "Great Hyrule Forest"
+  },
+  {
+    "complete": false,
+    "name": "Trial of Second Sight",
+    "shrine": "Kuhn Sidajj shrine",
+    "region": "Great Hyrule Forest"
+  },
+  {
+    "complete": false,
+    "name": "Secret of the Cedars",
+    "shrine": "Tahno O'ah shrine",
+    "region": "Hateno"
+  },
+  {
+    "complete": false,
+    "name": "The Crowned Beast",
+    "shrine": "Mezza Lo shrine",
+    "region": "Hateno"
+  },
+  {
+    "complete": false,
+    "name": "The Cursed Statue",
+    "shrine": "Kam Urog shrine",
+    "region": "Hateno"
+  },
+  {
+    "complete": false,
+    "name": "The Spring of Wisdom",
+    "shrine": "Jitan Sa'mi shrine",
+    "region": "Hateno"
+  },
+  {
+    "complete": false,
+    "name": "The Bird in the Mountains",
+    "shrine": "Mozo Shenno shrine",
+    "region": "Hebra"
+  },
+  {
+    "complete": false,
+    "name": "Trail on the Cliff",
+    "shrine": "Gaza Tokki shrine",
+    "region": "Hebra"
+  },
+  {
+    "complete": false,
+    "name": "Guardian Slideshow",
+    "shrine": "Shoqa Tatone shrine",
+    "region": "Lake"
+  },
+  {
+    "complete": false,
+    "name": "The Serpent's Jaw",
+    "shrine": "Shae Katha shrine",
+    "region": "Lake"
+  },
+  {
+    "complete": false,
+    "name": "Master of the Wind",
+    "shrine": "Shai Yota shrine",
+    "region": "Lanayru"
+  },
+  {
+    "complete": false,
+    "name": "The Ceremonial Song",
+    "shrine": "Dagah Keek shrine",
+    "region": "Lanayru"
+  },
+  {
+    "complete": false,
+    "name": "The Two Rings",
+    "shrine": "Sheem Dagoze shrine",
+    "region": "Ridgeland"
+  },
+  {
+    "complete": false,
+    "name": "Trial of Thunder",
+    "shrine": "Toh Yasha shrine",
+    "region": "Ridgeland"
+  },
+  {
+    "complete": false,
+    "name": "Under a Red Moon",
+    "shrine": "Mijah Rokee shrine",
+    "region": "Ridgeland"
+  },
+  {
+    "complete": false,
+    "name": "Recital at Warbler's Nest",
+    "shrine": "Voo Lota shrine",
+    "region": "Tabantha"
+  },
+  {
+    "complete": false,
+    "name": "The Ancient Rito Song",
+    "shrine": "Bareeda Naag shrine",
+    "region": "Tabantha"
+  }
+]

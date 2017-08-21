@@ -1,0 +1,28 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: -15px;
+  list-style: none;
+
+  li {
+    margin-right: 15px;
+    padding: 0 10px;
+
+    &.active {
+      border-bottom: 3px solid #0d9263;
+
+      a {
+        color: #0d9263;
+      }
+    }
+
+    a {
+      color: #494b4b;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}

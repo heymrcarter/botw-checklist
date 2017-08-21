@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <top-navigation></top-navigation>
+    <div class="wrapper">
+      <top-navigation class="topbar"></top-navigation>
 
-    <main>
-      <router-view></router-view>
-    </main>
+      <main>
+        <router-view></router-view>
+      </main>
+    </div>
   </div>
 </template>
 
@@ -17,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 * {
   margin: 0;
   padding: 0;
@@ -28,9 +30,23 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-}
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: hidden;
 
-main {
-  background-color: #eee;
+  .wrapper {
+    overflow-y: scroll;
+    background-image: url('./assets/botw.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  main {
+    height: ~"calc(100vh - 50px)";
+  }
 }
 </style>

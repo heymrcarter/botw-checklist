@@ -1,0 +1,30 @@
+[
+  {
+    "complete": false,
+    "name": "Treasure Chest",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Ore Deposit",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Rare Ore Deposit",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  },
+  {
+    "complete": false,
+    "name": "Luminous Stone Deposit",
+    "locations": [
+      "Greater Hyrule"
+    ]
+  }
+]

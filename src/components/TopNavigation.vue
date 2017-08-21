@@ -1,8 +1,10 @@
 <template>
   <nav>
-    <router-link :to="{ name: 'Quests' }">BOTW Checklist</router-link>
+    <router-link to="/">BOTW Checklist</router-link>
     <ul>
       <li><router-link :to="{ name: 'Quests' }">Quests</router-link></li>
+      <li><router-link :to="{ name: 'Memories' }">Memories</router-link></li>
+      <li><router-link :to="{ name: 'HyruleCompendium' }">Hyrule Compendium</router-link></li>
     </ul>
   </nav>
 </template>
@@ -43,6 +45,7 @@ nav {
 
     li {
       display: flex;
+      padding: 0 10px;
 
       a {
         color: white;
