@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style lang="less">
+@import './less/variables';
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +40,8 @@ export default {
 
   .wrapper {
     overflow-y: scroll;
-    background-image: url('./assets/botw.png');
+    background-color: #eee;
+    background-image: url("@{imgBaseUrl}botw.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
