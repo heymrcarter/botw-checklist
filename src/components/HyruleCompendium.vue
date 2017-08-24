@@ -10,7 +10,7 @@
       </ul>
     </div>
 
-    <div class="compendium-list">
+    <div class="list">
       <div class="card">
         <div v-if="items.length === 0">
           <p>No compendium items</p>
@@ -54,9 +54,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="less">
-.compendium-list {
-  margin: 25px 20px;
-}
-</style>

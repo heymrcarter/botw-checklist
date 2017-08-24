@@ -10,8 +10,19 @@
       </ul>
     </div>
 
-    <div class="quest-list">
+    <div class="list">
       <div class="card">
+        <div class="filter" v-if="renderFilter">
+          <label for="completable-filter">Filter quests</label>
+          <div class="filter-wrapper">
+            <div class="property-selector flex" @click="renderFilterPropertyList = !renderFilterPropertyList">{{ currentFilterProperty.toTitleCase() }}</div>
+            <ul class="property-list" v-if="renderFilterPropertyList">
+              <li v-for="(property, i) in questFilterProperties" :key="i" @click="currentFilterProperty = property">{{ property.toTitleCase() }}</li>
+            </ul>
+            <input type="text" id="completable-filter" class="flex" @keyup="filterQuests($event.target.value)" v-model="filterValue">
+          </div>
+        </div>
+
         <div v-if="quests.length === 0">
           <p>No {{ friendlyQuestType }} quests</p>
         </div>
@@ -49,6 +60,9 @@ export default {
     },
     questFilterProperties () {
       return Object.keys(this.quests[0])
+    },
+    renderFilter () {
+      return process.env.LIST_FILTER_ENABLED
     }
   },
   methods: {
@@ -115,9 +129,5 @@ export default {
       }
     }
   }
-}
-
-.quest-list {
-  margin: 25px 20px;
 }
 </style>

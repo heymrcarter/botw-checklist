@@ -4,6 +4,7 @@
     <ul>
       <li><router-link :to="{ name: 'Quests' }">Quests</router-link></li>
       <li><router-link :to="{ name: 'Memories' }">Memories</router-link></li>
+      <li><router-link :to="{ name: 'Shrines' }">Shrines</router-link></li>
       <li><router-link :to="{ name: 'HyruleCompendium' }">Hyrule Compendium</router-link></li>
     </ul>
   </nav>

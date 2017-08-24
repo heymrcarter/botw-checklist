@@ -13,6 +13,7 @@ const equipment = require('../data/equipment')
 const materials = require('../data/materials')
 const monsters = require('../data/monsters')
 const treasure = require('../data/treasure')
+const shrines = require('../data/shrines')
 
 Vue.use(Vuex)
 
@@ -22,7 +23,7 @@ const store = new Store({
     mainQuests,
     shrineQuests,
     sideQuests,
-    shrines: [],
+    shrines,
     memories,
     creatures,
     equipment,
