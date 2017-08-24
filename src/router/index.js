@@ -8,6 +8,7 @@ import Shrines from '@/components/Shrines'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
